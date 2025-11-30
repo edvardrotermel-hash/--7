@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+/*контейнер карты*/
+.container {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+/*легенда*/
+.siderbar {
+    height: 100%;
+    width: 250x;
+    border-color: black;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 10px;
+}
+li{ 
+    list-style: none;
+}
+.map {
+    border-color: black;
+    border-style: solid;
+    border-radius: 6px;
+    margin-left: 5px;
+    flex: 1;
+    position: relative;
+    height: calc(100vh-120px);
+
+}
